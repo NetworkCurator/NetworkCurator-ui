@@ -65,7 +65,7 @@ if ($sandbox != "index" && $sandbox != '') {
             </div>
             <div class="col-sm-6">
                 <div class="thumbnail nc-thumbnail"> 
-                    <a href="?page=sandbox&sandbox=barplot02'">
+                    <a href="?page=sandbox&sandbox=barplot02">
                         <h5>barplot02</h5>
                         <p>Create a bar plot with horizontal bars.</p>                    
                     </a>

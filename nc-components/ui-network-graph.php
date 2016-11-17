@@ -5,15 +5,15 @@
  */
 
 // get all the classes for the network
-$nodeclasses = $NCapi->getNodeClasses($network);
-$linkclasses = $NCapi->getLinkClasses($network);
-$graphnodes = $NCapi->getAllNodes($network);
-$graphlinks = $NCapi->getAllLinks($network);
+//$nodeclasses = $NCapi->getNodeClasses($network);
+//$linkclasses = $NCapi->getLinkClasses($network);
+//$graphnodes = $NCapi->getAllNodes($network);
+//$graphlinks = $NCapi->getAllLinks($network);
 
-echo ncScriptObject("nc.ontology.nodes", $nodeclasses);
-echo ncScriptObject("nc.ontology.links", $linkclasses);
-echo ncScriptObject("nc.graph.rawnodes", $graphnodes);
-echo ncScriptObject("nc.graph.rawlinks", $graphlinks);
+//echo ncScriptObject("nc.ontology.nodes2", $nodeclasses);
+//echo ncScriptObject("nc.ontology.links2", $linkclasses);
+//echo ncScriptObject("nc.graph.rawnodes2", $graphnodes);
+//echo ncScriptObject("nc.graph.rawlinks2", $graphlinks);
 ?>
 
 
@@ -28,7 +28,6 @@ echo ncScriptObject("nc.graph.rawlinks", $graphlinks);
         <?php include_once "ui-network-graph-element.php"; ?>
     </div>
 </div>
-
 
 <!--
 <script>
