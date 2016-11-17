@@ -37,7 +37,8 @@ $owner = $summary['content']['owner_id'];
 <div class="row">
     <div class="col-sm-8">
         
-        <div class="nc-object-type"><span><?php echo "Ontology: "; ?> </span><?php echo $summary['name']['anno_text']; ?></div>
+        <div class="nc-object-type"><span>Name: </span><?php echo $summary['name']['anno_text']; ?></div>
+        <!-- <div class="nc-object-type"><span>Ontology: </span><?php echo $summary['name']['anno_text']; ?></div> -->
         <div class="nc-object-type"><span>Created by: </span><?php echo $owner; ?></div>
         
         <h1><div id="nc-object-title" class="nc-editable-text nc-md" 

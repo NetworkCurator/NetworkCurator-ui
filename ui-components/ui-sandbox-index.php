@@ -6,7 +6,7 @@
 
 // is the request for a particular sandbox?
 if ($sandbox != "index" && $sandbox != '') {
-    $sandfile = "nc-ui/nc-components/ui-sandbox-generic.php";
+    $sandfile = "nc-ui/ui-components/ui-sandbox-generic.php";
     if (file_exists($sandfile)) {
         include_once $sandfile;
         exit();
@@ -19,18 +19,6 @@ if ($sandbox != "index" && $sandbox != '') {
         <h1>Sandboxes</h1>
 
         <p>Sandboxes are areas to experiment with creating content.</p>
-
-        <h2>Networks</h2>
-
-        <p>NetworkCurator can create networks through the graph page or from data files. 
-            Use this sandbox to create compatible data files from spreadsheet tables.</p>
-
-        <div class="thumbnail nc-thumbnail">
-            <a href="?page=sandbox&sandbox=preparenetwork">        
-                <h5 class="list-group-item-heading">Network prep</h5>
-                <p class="list-group-item-text">Prepare a minimal network definition from lists of nodes and links.</p>
-            </a>            
-        </div>
 
 
         <h2>Markdown</h2>
@@ -45,7 +33,8 @@ if ($sandbox != "index" && $sandbox != '') {
             </a>            
         </div>                
 
-        <h2>Makealive</h2>
+        
+        <h2>Generic makealive components</h2>
 
         <p>Makealive is an extension of markdown. Use it to create rich content, for example
             data charts.</p>                
@@ -96,6 +85,38 @@ if ($sandbox != "index" && $sandbox != '') {
                 </div>
             </div>
         </div>      
+
+
+
+        <h2>Network-specific makealive components</h2>
+
+        <p>Use network-specific makealive components to display custom information
+            about the network.</p>                
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="thumbnail nc-thumbnail"">       
+                    <a href="?page=sandbox&sandbox=nodeneighbors">
+                        <h5>nodeneighbors</h5>
+                        <p >Create a venn diagram to compare node neighbor sets.</p>
+                    </a>           
+                </div>
+            </div>
+        </div>
+
+
+        <h2>Networks</h2>
+
+        <p>NetworkCurator can create networks through the graph page or from data files. 
+            Use this sandbox to create compatible data files from spreadsheet tables.</p>
+
+        <div class="thumbnail nc-thumbnail">
+            <a href="?page=sandbox&sandbox=preparenetwork">        
+                <h5 class="list-group-item-heading">Network prep</h5>
+                <p class="list-group-item-text">Prepare a minimal network definition from lists of nodes and links.</p>
+            </a>            
+        </div>
+
 
     </div>
 </div>

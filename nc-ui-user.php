@@ -9,7 +9,7 @@ if ($uid == "guest") {
     return;    
 }
 
-include_once "nc-components/ui-user-info.php";
+include_once "ui-components/ui-user-info.php";
 
 ?>    
 

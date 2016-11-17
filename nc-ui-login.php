@@ -13,7 +13,7 @@ if ($_SESSION['uid'] !== "guest") {
 <div class="row" style="margin-top:20px">    
     <div class="col-sm-4">        
         <?php
-        include_once "nc-components/ui-login-form.php";
+        include_once "ui-components/ui-login-form.php";
         ?>
     </div>
 </div>

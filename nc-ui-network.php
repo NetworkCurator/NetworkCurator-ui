@@ -78,11 +78,12 @@ if (isset($_REQUEST['object'])) {
 
 <?php
 // after the menu, include the contents specific to each view
-include_once "nc-ui/nc-components/ui-network-$view.php";
+include_once "nc-ui/ui-components/ui-network-$view.php";
 
 // write out the markdown and comments into the page
 echo "<script>nc.networktitle='$nettitle';</script>";
 echo ncScriptObject("nc.md", $netmd);
 echo ncScriptObject("nc.comments", $netcomments);
+
 ?>
 

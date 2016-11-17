@@ -3,7 +3,7 @@
  * Main/Front page
  * 
  */
-include_once "nc-ui/nc-components/ui-front-jumbo.php";
+include_once "nc-ui/ui-components/ui-front-jumbo.php";
 
 // get info on existing and viewable networks
 // display each using the code in ui-network-card            
@@ -41,7 +41,7 @@ $md = [];
                 $nettitleid = $mynetworks[$x]['title_id'];
                 $netabstract = $mynetworks[$x]['abstract'];
                 $netabstractid = $mynetworks[$x]['abstract_id'];
-                include "nc-components/ui-network-card.php";
+                include "ui-components/ui-network-card.php";
                 $md[$netabstractid] = $netabstract;
                 $md[$nettitleid] = $nettitle;
             }

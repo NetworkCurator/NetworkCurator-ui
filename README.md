@@ -1,2 +1,5 @@
 # NetworkCurator-ui
-ui theme for networkcurator
+
+This repository holds the default user-interface theme for NetworkCurator. 
+
+See the [docs](https://networkcurator.github.io) for more details.
