@@ -33,7 +33,7 @@ $guestusers = array('guest' => $guestuser);
 ?>
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12 col-md-10 col-lg-8">
                 
         <h3 class="nc-mt-15">Public access</h3>    
         <div id="nc-permissions-guest">

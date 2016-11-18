@@ -11,7 +11,7 @@
 ?>
 
 <div class="row">
-    <div class="col-sm-5">
+    <div class="col-sm-10 col-lg-5">
         <h3 class="nc-mt-10">Export data</h3>            
         <p>Download data for this network. (To do, not working yet)</p>
         <form role="form" id="nc-export-form" onsubmit="nc.data.exportData(); return false;">            

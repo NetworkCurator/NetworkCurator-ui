@@ -21,7 +21,7 @@ foreach (["title", "content", "abstract"] as $i) {
 ?>
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12 col-md-10 col-lg-8">
         <h1><div id="nc-network-title" class="nc-editable-text nc-md" 
                  val="<?php echo $netmeta['title']['anno_id']; ?>"
                  owner="<?php echo $owner; ?>"></div>

@@ -15,7 +15,7 @@ if ($sandbox != "index" && $sandbox != '') {
 ?>
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12 col-md-10 col-lg-8">
         <h1>Sandboxes</h1>
 
         <p>Sandboxes are areas to experiment with creating content.</p>

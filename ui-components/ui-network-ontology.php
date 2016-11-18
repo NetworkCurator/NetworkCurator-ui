@@ -17,7 +17,7 @@ echo ncScriptObject("nc.ontology.links", $linkclasses);
 ?>
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12 col-md-10 col-lg-8">
         <h3 class="nc-mt-10">Nodes</h3>    
         <div id="nc-ontology-nodes" class="nc-ontology-tree">
         </div>

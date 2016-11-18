@@ -35,7 +35,7 @@ $owner = $summary['content']['owner_id'];
 ?>
 
 <div class="row">
-    <div class="col-sm-8">
+    <div class="col-sm-12 col-md-10 col-lg-8">
         
         <div class="nc-object-type"><span>Name: </span><?php echo $summary['name']['anno_text']; ?></div>
         <!-- <div class="nc-object-type"><span>Ontology: </span><?php echo $summary['name']['anno_text']; ?></div> -->

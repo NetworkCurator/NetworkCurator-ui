@@ -6,7 +6,7 @@
 ?>
 
 <div class="row">
-    <div class="col-sm-5">
+    <div class="col-lg-5 col-sm-10">
         <h1>Register a new user</h1> 
         <form role="form" onsubmit="nc.admin.createUser('fg-first','fg-middle', 'fg-last', 'fg-id', 'fg-email', 'fg-pwd', 'fg-pwd2'); return false;">
             <div id="fg-first" class="form-group">
