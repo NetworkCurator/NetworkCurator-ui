@@ -2,8 +2,9 @@
 /**
  * Footer at the bottom of each page
  */
+?>
 
-// the next </div>s closes the "page" divs from nc-header.php ?>
+<?php // the next </div> closes the "container" div from nc-header.php ?>
 </div>
 
 
@@ -54,15 +55,16 @@
 
 
 <footer class="footer nc-footer">
-    <div class="container">
-        <p class="navbar-text">This is the footer</p>
-        <ul class="nav navbar-nav">        
-            <li><a href="#"></a></li>                
-        </ul>
+    <div class="container">                        
+        <div class="navbar-text col-lg-2">
+            <span class="nc-first"><a href="?page=about">About</a></span>
+            <span><a href="?page=cookies">Cookies</a></span>
+        </div>        
     </div>
 </footer>
 
 
+<?php // the next </div> closes the "page" div from nc-header.php, then standard html ?>
 </div>
 
 </body>
