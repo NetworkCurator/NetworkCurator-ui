@@ -4,3 +4,10 @@
 */*/*.*~
 nbproject
 
+## ignoring any local files (just in case a clone wants to add local files)
+*local.php
+*/*local.php
+*/*/*local.php
+
+
+
