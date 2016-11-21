@@ -4,16 +4,6 @@
  * 
  */
 
-// get all the classes for the network
-//$nodeclasses = $NCapi->getNodeClasses($network);
-//$linkclasses = $NCapi->getLinkClasses($network);
-//$graphnodes = $NCapi->getAllNodes($network);
-//$graphlinks = $NCapi->getAllLinks($network);
-
-//echo ncScriptObject("nc.ontology.nodes2", $nodeclasses);
-//echo ncScriptObject("nc.ontology.links2", $linkclasses);
-//echo ncScriptObject("nc.graph.rawnodes2", $graphnodes);
-//echo ncScriptObject("nc.graph.rawlinks2", $graphlinks);
 ?>
 
 

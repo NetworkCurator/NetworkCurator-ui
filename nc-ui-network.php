@@ -32,11 +32,13 @@ if (!in_array($view, array('graph', 'log', 'data', 'permissions', 'ontology'))) 
 $coreurl = "?network=$network&view=";
 
 
-// identify what graph object to look up
+// perhaps page is requesting an object or a history page
 if (isset($_REQUEST['object'])) {        
     $view = 'object';    
 } 
-
+if (isset($_REQUEST['history'])) {
+    $view = 'history';
+}
 
 ?>
 
@@ -68,6 +70,11 @@ if (isset($_REQUEST['object'])) {
                 <li class="nc-curator" style="display: none">
                     <a role="button" id="nc-curation-lock" class="nc-looking">                        
                         <span class="glyphicon glyphicon-pencil"></span>
+                    </a>
+                </li>
+                <li class="nc-history">
+                    <a role="button" id="nc-history">                        
+                        <span class="glyphicon glyphicon-film"></span>
                     </a>
                 </li>
             </ul>

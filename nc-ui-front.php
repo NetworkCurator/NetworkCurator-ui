@@ -43,7 +43,6 @@ $md = [];
 
 
 
-
 <?php
 echo ncScriptObject("nc.md", $md);
 ?>

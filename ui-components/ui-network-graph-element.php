@@ -5,13 +5,21 @@
  */
 ?>
 
-<?php 
+<?php
 // block for displaying generic details about nodes/links
 ?>
 <div id="nc-graph-details" class="nc-graph-details">      
     <div id="nc-graph-details-class" class="nc-mt-15"></div>    
     <h2><div id="nc-graph-details-title" class="nc-editable-text nc-md" val=""></div></h2>        
-    <div id="nc-graph-details-abstract" class="nc-editable-text nc-md nc-mt-15" val=""></div>    
+    <div id="nc-graph-details-abstract" class="nc-editable-text nc-md nc-mt-15" val=""></div>        
+    <div class="nc-mt-20">
+    <div class="nc-tips nc-curator">
+        <h4>Tips</h4>        
+        <p>Use the <b>Read more</b> button to see a page dedicated to this network object.</p>
+        <p>To avoid reloading/reconfiguring the network view many times, open the 
+            new page in a <b>new browser tab</b>.</p>        
+    </div>
+    </div>
 </div> 
 
 <?php
@@ -26,12 +34,6 @@
                 <p class="help-block">This should be a short label without spaces, e.g.
                     'test-node', made up of characters [a-z,A-Z,0-9,_-].</p>        
             </div>    
-            <!--
-            <div id="fg-nodetitle" class="form-group">
-                <label>Node title:</label>        
-                <input type="text" class="form-control" placeholder="Node title">                     
-            </div> 
-            -->
             <div id="fg-nodeclass" class="form-group">
                 <label>Node class:</label> 
                 <div class="input-group-btn"></div>
@@ -51,12 +53,6 @@
                 <p class="help-block">This should be a short label without spaces, e.g.
                     'test-link', made up of characters [a-z,A-Z,0-9,_-].</p>        
             </div>    
-            <!--
-            <div id="fg-linktitle" class="form-group">
-                <label>Link title:</label>        
-                <input type="text" class="form-control" placeholder="Link title">                 
-            </div>     
-            -->
             <div id="fg-linkclass" class="form-group">
                 <label>Link class:</label>     
                 <div class="input-group-btn"></div>
