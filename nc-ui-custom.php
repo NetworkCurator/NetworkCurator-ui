@@ -17,7 +17,7 @@ if ($page == "sandbox") {
 
 // pages like "about" - these have a default setting in the ui-components
 // but if a local instance has -local.php versions, the local versions are loaded instead
-if ($page == "about" || $page=="cookies") {
+if ($page == "about" || $page=="privacy") {
     $customfile = "nc-ui/ui-components/ui-$page-local.php";   
     if (!file_exists($customfile)) {        
         $customfile = "nc-ui/ui-components/ui-$page.php";

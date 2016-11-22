@@ -56,10 +56,13 @@
 
 <footer class="footer nc-footer">
     <div class="container">                        
-        <div class="navbar-text col-lg-2">
+        <div class="navbar-text col-sm-8">
             <span class="nc-first"><a href="?page=about">About</a></span>
-            <span><a href="?page=cookies">Cookies</a></span>
+            <span class="nc-quiet">This site uses cookies. See more information about <a href="?page=privacy">privacy</a></span>
         </div>        
+        <div class="navbar-text col-sm-3 pull-right">
+            <span class="nc-first nc-quiet pull-right">Powered by <a href="https://networkcurator.github.io">NetworkCurator</a></span>
+        </div>
     </div>
 </footer>
 

@@ -13,7 +13,7 @@
     <h2><div id="nc-graph-details-title" class="nc-editable-text nc-md" val=""></div></h2>        
     <div id="nc-graph-details-abstract" class="nc-editable-text nc-md nc-mt-15" val=""></div>        
     <div class="nc-mt-20">
-    <div class="nc-tips nc-curator">
+    <div class="nc-tips">
         <h4>Tips</h4>        
         <p>Use the <b>Read more</b> button to see a page dedicated to this network object.</p>
         <p>To avoid reloading/reconfiguring the network view many times, open the 

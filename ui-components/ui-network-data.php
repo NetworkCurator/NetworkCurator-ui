@@ -13,16 +13,16 @@
 <div class="row">
     <div class="col-sm-10 col-lg-5">
         <h3 class="nc-mt-10">Export data</h3>            
-        <p>Download data for this network. (To do, not working yet)</p>
+        <p>Download data for this network. </p>
         <form role="form" id="nc-export-form" onsubmit="nc.data.exportData(); return false;">            
-            <div id="fg-export-summary" class="checkbox form-group">
-                <label><input type="checkbox" checked disabled>Network Data</label>
-            </div>            
-            <div id="fg-export-comments" class="checkbox form-group">
-                <label><input type="checkbox">Comments</label>
+            <div class="radio">
+                <label class="radio-inline"><input type="radio" name="eradio" checked value="network">Network Data</label>
+            </div>           
+            <div class="radio">
+                <label class="radio-inline"><input type="radio" name="eradio" value="comments">Comments</label>
             </div>
-            <div id="fg-export-old" class="checkbox form-group">
-                <label><input type="checkbox">Annotation history</label>
+            <div class="radio">
+                <label class="radio-inline"><input type="radio" name="eradio" value="complete">Complete annotation history</label>
             </div>
             <button type="submit" class="btn btn-success submit">Download</button>            
         </form>
