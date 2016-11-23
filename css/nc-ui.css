@@ -97,6 +97,27 @@ body {
 
 
 /* --------------------------------------------------------------------------
+ * Jumbotron on front page
+ * -------------------------------------------------------------------------- */
+
+.jumbotron {
+    background-color: #011;    
+    color: #ddd;
+}
+.jumbotron .nc-ui-jumbolabel {
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 4em;
+    letter-spacing: 2px;
+}
+.jumbotron .nc-ui-jumbosublabel {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 0.7em;
+}
+
+
+/* --------------------------------------------------------------------------
  * Main navigation bar
  * -------------------------------------------------------------------------- */
 

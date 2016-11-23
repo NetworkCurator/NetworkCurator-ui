@@ -8,6 +8,7 @@
 </div>
 <div class="jumbotron">
     <div class="container">
-        <div><span class="ncui-darklabel">This site is under construction</span></div> 
+        <div class="nc-ui-jumbolabel"><?php echo ncSiteName(); ?></div> 
+        <div class="nc-ui-jumbosublabel">Interactive and collaborative network science</div> 
     </div>
 </div>

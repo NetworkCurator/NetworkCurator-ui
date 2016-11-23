@@ -24,8 +24,6 @@
             <button type="submit" class="btn btn-success submit">Download</button>            
         </form>
 
-
-
         <hr/>
         <h3 class="nc-mt-15">Import data</h3>        
         <form role="form" id="nc-import-form" onsubmit="nc.data.importData('fg-importfile', 'fg-importmsg'); return false;">
@@ -85,3 +83,4 @@
         </div>
     </div>
 </div>
+
