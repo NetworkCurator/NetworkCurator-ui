@@ -17,10 +17,7 @@
         <form role="form" id="nc-export-form" onsubmit="nc.data.exportData(); return false;">            
             <div class="radio">
                 <label class="radio-inline"><input type="radio" name="eradio" checked value="network">Network data</label>
-            </div>           
-            <div class="radio">
-                <label class="radio-inline"><input type="radio" name="eradio" value="comments">Network data and comments</label>
-            </div>
+            </div>                       
             <div class="radio">
                 <label class="radio-inline"><input type="radio" name="eradio" value="complete">Complete network history</label>
             </div>
