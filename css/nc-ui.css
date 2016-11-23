@@ -103,6 +103,7 @@ body {
 .jumbotron {
     background-color: #011;    
     color: #ddd;
+    margin-bottom: 5em;
 }
 .jumbotron .nc-ui-jumbolabel {
     font-size: 48px;
