@@ -58,6 +58,7 @@
     <div class="container">                        
         <div class="navbar-text col-sm-8">
             <span class="nc-first"><a href="?page=about">About</a></span>
+            <span class=""><a href="?page=sandbox">Sandboxes</a></span>
             <span class="nc-quiet">This site uses cookies. See more information about <a href="?page=privacy">privacy</a></span>
         </div>        
         <div class="navbar-text col-sm-3 pull-right">
