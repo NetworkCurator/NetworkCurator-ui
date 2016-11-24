@@ -7,6 +7,7 @@
 ?>
 
 
+<?php include_once "ui-browser-warning.php"; ?>
 <div class="row">
     <div id="nc-graph-toolbar" class="col-sm-12"></div>
 </div>
