@@ -9,7 +9,7 @@
 
 // if user does not have at least view permissions, redirect
 if (!$upermissions || $upermissions < 1) {
-    header("Refresh: 0; ?page=front");
+    //header("Refresh: 0; ?page=front");
     exit();
 }
 
