@@ -43,6 +43,6 @@
 <a onclick="javascript:debugOntologies(); return false">Show ontologies </a>
 <div id="nc-debugging">
 -->
-    
 
+    
 </div>
