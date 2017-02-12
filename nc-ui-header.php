@@ -36,7 +36,7 @@ nc.commentator=". (int) ($upermissions >= NC_PERM_COMMENT) . ";
         
         <link rel='stylesheet' href='<?php echo NC_INCLUDES_PATH; ?>/bootstrap-3.3.7/css/bootstrap.min.css'>        
         <link rel='stylesheet' href='<?php echo NC_CSS_PATH; ?>/nc-core.min.css'>     
-        <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto:300,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open Sans|Roboto:300,700" rel="stylesheet">
         <link href='<?php echo NC_UI_PATH; ?>/css/nc-ui.css' rel='stylesheet' type='text/css'>        
         <title>NetworkCurator <?php if ($network) echo ": " . $network; ?></title>
     </head>

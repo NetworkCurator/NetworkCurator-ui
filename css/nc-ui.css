@@ -9,7 +9,7 @@
  * -------------------------------------------------------------------------- */
 
 h1, h2, h3, h4 {     
-    font-family: 'Roboto', Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;    
 }
 h2, h4 {
     font-weight: 700;
@@ -19,8 +19,8 @@ h1, h3 {
     font-weight: 300;
     padding-bottom: 8px;    
 }
-body {       
-    font-family: 'Oxygen', Helvetica, sans-serif;   
+body {           
+    font-family: 'Open Sans', Helvetica, sans-serif;   
 }
 
 
