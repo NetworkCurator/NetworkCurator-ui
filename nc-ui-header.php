@@ -9,14 +9,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/jquery-3.1.0/jquery-3.1.0.min.js'></script>                                                                          
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/jquery-sortable-0.9.13/jquery-sortable-min.js'></script>
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/bootstrap-3.3.7/js/bootstrap.min.js'></script>
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/showdown-1.4.2/dist/showdown.min.js'></script>
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/sanitize-html-1.13.0/sanitize-html.min.js'></script>
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/d3-4.2.2/d3.min.js'></script>        
-        <script type='text/javascript' src='<?php echo NC_INCLUDES_PATH; ?>/makealive/makealive-lib.min.js'></script>                
-        
+        <script type='text/javascript' src='<?php echo NC_JS_PATH; ?>/networkcurator-includes.min.js'></script>        
         <script type='text/javascript' src='<?php echo NC_JS_PATH; ?>/networkcurator.min.js'></script> 
 <?php
 $firstname = $_SESSION['firstname'];
