@@ -3,22 +3,16 @@
  * Main/Front page
  * 
  */
-// load a jumbotron at the top
-$jumbofile = "nc-ui/ui-components/ui-front-jumbo-local.php";
-if (!file_exists($jumbofile)) {
-    $jumbofile = "nc-ui/ui-components/ui-front-jumbo.php";
-}
-include_once $jumbofile;
 
+// load a jumbotron at the top
+include_once ncGetLocalFile("nc-ui/ui-components/ui-front-jumbo.php");
 
 // get info on existing and viewable networks
 // display each using the code in ui-network-card            
 $mynetworks = $NCapi->listNetworks();
-//print_r($mynetworks);
 // get a set of elements that need markdown treatment
 $md = [];
 ?>
-
 
 <div class="container">
     <div class="row">   
@@ -40,8 +34,6 @@ $md = [];
         </div>
     </div>
 </div>
-
-
 
 <?php
 echo ncScriptObject("nc.md", $md);
