@@ -20,9 +20,6 @@
 
 <?php
 $mdaside = "";
-#if ($sandbox != "preparenetwork") {
-#    $mdaside = "(Use this code in an abstract, description, or comment)";
-#}
 include_once "ui-sandbox-md.php";
 ?>
 

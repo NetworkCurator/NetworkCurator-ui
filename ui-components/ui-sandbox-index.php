@@ -9,7 +9,7 @@ if ($sandbox != "index" && $sandbox != '') {
     $sandfile = "nc-ui/ui-components/ui-sandbox-generic.php";
     if (file_exists($sandfile)) {
         include_once $sandfile;
-        return;
+        exit();
     }
 }
 ?>
