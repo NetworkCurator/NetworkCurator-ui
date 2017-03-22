@@ -9,7 +9,7 @@ if ($sandbox != "index" && $sandbox != '') {
     $sandfile = "nc-ui/ui-components/ui-sandbox-generic.php";
     if (file_exists($sandfile)) {
         include_once $sandfile;
-        exit();
+        return;
     }
 }
 ?>
@@ -36,7 +36,7 @@ if ($sandbox != "index" && $sandbox != '') {
         
         <h2>Generic makealive components</h2>
 
-        <p>Makealive is an extension of markdown. Use it to create rich content, for example
+        <p><a href="https://tkonopka.github.io/makealive/lib/">Makealive</a> is an extension of markdown. Use it to create rich content, for example
             data charts.</p>                
 
         <p>Each of the sandbox pages below contains a form. Input your data into the form and 
@@ -44,43 +44,99 @@ if ($sandbox != "index" && $sandbox != '') {
             Use the code within any content box (e.g. abstract or comment) on the NetworkCurator site.</p>
 
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <div class="thumbnail nc-thumbnail">      
                     <a href="?page=sandbox&sandbox=barplot01">
                         <h5>barplot01</h5>
-                        <p>Create a bar plot with vertical bars.</p>                    
+                        <p>Vertical bar plot.</p>                    
                     </a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <div class="thumbnail nc-thumbnail"> 
                     <a href="?page=sandbox&sandbox=barplot02">
                         <h5>barplot02</h5>
-                        <p>Create a bar plot with horizontal bars.</p>                    
+                        <p>Horizontal bar plot.</p>                    
                     </a>
                 </div>
-            </div>            
-            <div class="col-sm-6">
+            </div>    
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"> 
+                    <a href="?page=sandbox&sandbox=plate12">
+                        <h5>plate12</h5>
+                        <p>12-well plate.</p>                    
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"> 
+                    <a href="?page=sandbox&sandbox=plate24">
+                        <h5>plate24</h5>
+                        <p>24-well plate.</p>                    
+                    </a>
+                </div>
+            </div>   
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"> 
+                    <a href="?page=sandbox&sandbox=plate96">
+                        <h5>plate96</h5>
+                        <p>96-well plate.</p>                    
+                    </a>
+                </div>
+            </div>   
+            <div class="col-sm-4">
                 <div class="thumbnail nc-thumbnail"">       
                     <a href="?page=sandbox&sandbox=scatterplot01">
                         <h5>scatterplot01</h5>
-                        <p>Create a scatter plot.</p>
+                        <p>Scatter plot.</p>
                     </a>
                 </div>
-            </div>
-            <div class="col-sm-6">
+            </div>            
+            <div class="col-sm-4">
                 <div class="thumbnail nc-thumbnail"">       
-                    <a href="?page=sandbox&sandbox=venn01">
-                        <h5>venn01</h5>
-                        <p>Create a venn diagram.</p>
+                    <a href="?page=sandbox&sandbox=stackedbarplot01">
+                        <h5>stackedbarplot01</h5>
+                        <p>Vertical stacked plot.</p>
                     </a>           
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"">       
+                    <a href="?page=sandbox&sandbox=stackedbarplot02">
+                        <h5>stackedbarplot02</h5>
+                        <p>Horizontal stacked plot.</p>
+                    </a>           
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"">       
+                    <a href="?page=sandbox&sandbox=stripchart01">
+                        <h5>stripchart01</h5>
+                        <p>Vertical strip chart.</p>
+                    </a>           
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"">       
+                    <a href="?page=sandbox&sandbox=stripchart02">
+                        <h5>stripchart02</h5>
+                        <p>Horizontal strip chart.</p>
+                    </a>           
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="thumbnail nc-thumbnail"">       
+                    <a href="?page=sandbox&sandbox=venn01">
+                        <h5>venn01</h5>
+                        <p>Venn diagram.</p>
+                    </a>           
+                </div>
+            </div>
+            <div class="col-sm-4">
                 <div class="thumbnail nc-thumbnail"">       
                     <a href="?page=sandbox&sandbox=venn02">
                         <h5>venn02</h5>
-                        <p >Create a venn diagram with a custom set.</p>
+                        <p >Venn with a custom set.</p>
                     </a>           
                 </div>
             </div>
