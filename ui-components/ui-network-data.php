@@ -16,7 +16,10 @@
         <p>Download data for this network. </p>
         <form role="form" id="nc-export-form" onsubmit="nc.data.exportData(); return false;">            
             <div class="radio">
-                <label class="radio-inline"><input type="radio" name="eradio" checked value="network">Network data</label>
+                <label class="radio-inline"><input type="radio" name="eradio" value="sif">Network data (SIF)</label>
+            </div>                       
+            <div class="radio">
+                <label class="radio-inline"><input type="radio" name="eradio" checked value="network">Network data (NetworkCurator json)</label>
             </div>                       
             <div class="radio">
                 <label class="radio-inline"><input type="radio" name="eradio" value="complete">Complete network history</label>
